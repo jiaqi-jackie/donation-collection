@@ -1,38 +1,39 @@
+@import "~antd/dist/antd.css";
+@import "~rsuite/dist/styles/rsuite-default.css";
+
+@import "Main.css";
+@import "auth/Login.css";
+@import "auth/Register.css";
+@import "TopBar.css";
+@import "donors/DonorHome.css";
+@import "ngos/NgoHome.css";
+@import "ngos/map/MapComposite.css";
+@import "ngos/NgoNewDonations.css";
+@import "history/HistorySection.css";
+@import "history/DonorHistoryTable.css";
+@import "history/NgoHistoryTable.css";
+@import "donors/DonorMain.css";
+@import "ngos/NgoMain.css";
+
+.html{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
+  width: 100vw;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ant-checkbox-checked .ant-checkbox-inner{
+  background-color:#02a95c;
+  border-color: #02a95c;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon{
+  color:#02a95c;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-spin-dot-item{
+  background-color: #02a95c;
 }

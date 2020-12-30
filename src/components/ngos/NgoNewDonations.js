@@ -168,7 +168,7 @@ class NgoNewDonations extends Component {
         this.props.session.idToken.payload["custom:state"] +
         "+" +
         this.props.session.idToken.payload["custom:postalCode"] +
-        "&key=AIzaSyCq-BRueDRRCUgFkqTgO93mFkgBfP0hOjU",
+        "&key=sample",
       {
         method: "GET",
       }

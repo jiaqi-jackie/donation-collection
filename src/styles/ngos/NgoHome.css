@@ -1,0 +1,11 @@
+.ngo-home-noItem {
+  margin-left: 70px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  font-size: x-large;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+}
